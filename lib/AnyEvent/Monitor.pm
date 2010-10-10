@@ -4,7 +4,7 @@ use AnyEvent;
 use Method::Signatures::Simple;
 use Moose;
 
-our $VERSION = '0.29';
+our $VERSION = '0.30';
 
 has on_softfail => ( is => "ro", isa => "CodeRef" );
 has on_hardfail => ( is => "ro", isa => "CodeRef" );

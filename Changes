@@ -1,4 +1,7 @@
 Revision history for Perl extension AnyEvent::Monitor
 
+0.30 Sun Oct 10 11:48:30 CST 2010
+
+        - fix dependencies.  
 0.29 Sat Oct  9 21:28:01 CST 2010
         - original version
