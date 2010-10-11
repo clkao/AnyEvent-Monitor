@@ -6,6 +6,7 @@ readme_from 'lib/AnyEvent/Monitor.pm';
 build_requires 'Test::More';
 requires 'Moose';
 requires 'AnyEvent';
+requires 'Method::Signatures::Simple';
 auto_include_deps;
 author_tests('xt');
 auto_set_repository;
