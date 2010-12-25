@@ -2,9 +2,9 @@ package AnyEvent::Monitor;
 use 5.10.1;
 use AnyEvent;
 use Method::Signatures::Simple;
-use Moose;
+use Any::Moose;
 
-our $VERSION = '0.31';
+our $VERSION = '0.32';
 
 has on_softfail => ( is => "ro", isa => "CodeRef" );
 has on_hardfail => ( is => "ro", isa => "CodeRef" );
@@ -65,7 +65,7 @@ method hardfail {
 }
 
 __PACKAGE__->meta->make_immutable;
-no Moose;
+no Any::Moose;
 1;
 __END__
 

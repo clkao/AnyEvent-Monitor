@@ -4,7 +4,7 @@ name 'AnyEvent-Monitor';
 all_from 'lib/AnyEvent/Monitor.pm';
 readme_from 'lib/AnyEvent/Monitor.pm';
 build_requires 'Test::More';
-requires 'Moose';
+requires 'Any::Moose';
 requires 'AnyEvent';
 requires 'Method::Signatures::Simple';
 auto_include_deps;
